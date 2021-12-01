@@ -11,10 +11,10 @@ $ php aoc2017day12.php
 
 Results will be displayed in terminal
 ```
+PART 1:
 Program rootKey: 0 
-
 Number of connectedPrograms with program (0): 115
-
+PART 2:
 Number of program clusters: 221
 ```
 
