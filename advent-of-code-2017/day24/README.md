@@ -108,7 +108,8 @@ do
 done
 ```
 
-This way we can use CPU multithreading to find and analyze all resulting bridges in parallel processes. 
+This way we can utilize CPU multithreading to find all resulting bridges in parallel processes. 
+Time savings in this case was app. 20% (it took 13m26s to finish all in parallel vs. 16m28s when ran PHP script directly.) 
 In terminal htop looks like this:
 
 ![](https://www.klik-mall.com/docs/documents/xr/mu/1638322252-5bmDA-2021-11-28-screenshot-htop-pve1-running-php-in-parallel.jpg)
