@@ -1,0 +1,139 @@
+--- RESULTS 
+Date: 2021-11-29 00:54:48 
+
+
+DURATION: 
+9.2029571533203E-5 microseconds
+00:00:00 (H:i:s)
+         
+--- 
+
+current PhpThread RootId: 1
+
+PART 1: 
+The strongest bridge we can create?
+
+ABSOLUTE maxBridgeStrength: 31 
+ABSOLUTE maxBridgeLength: 3
+
+
+PART 2: 
+"What is the strength of the longest bridge you can make? If you can make multiple bridges of the longest length, pick the strongest one."
+
+TOP Array item will give us the length, strength & path of the longest-strongest bridge we can produce with our puzzle. 
+If there is more than one item in this array, they are THE SAME (max) length, BUT weaker.
+
+theStrongestLongestBridgesArr: 
+Array
+(
+    [3] => Array
+        (
+            [length] => 3
+            [strength] => 31
+            [path] => 0/1-10/1-9/10
+        )
+
+)
+
+
+
+------------------------------------------------------
+------------------------------------------------------
+  
+    FULL RESULTS DATA 
+    
+    bridgesStrengthArr 
+    Array
+(
+    [1] => Array
+        (
+            [0/2] => 2
+        )
+
+    [6] => Array
+        (
+            [0/1] => 1
+            [0/1-10/1] => 12
+            [0/1-10/1-9/10] => 31
+        )
+
+)
+
+    ---------------------------
+    
+    
+    bridgesLengthsArr 
+    Array
+(
+    [1] => Array
+        (
+            [0/2] => 1
+        )
+
+    [6] => Array
+        (
+            [0/1] => 1
+            [0/1-10/1] => 2
+            [0/1-10/1-9/10] => 3
+        )
+
+)
+
+    ---------------------------
+    
+    
+    bridgesPathArr        
+    Array
+(
+    [1] => Array
+        (
+            [0] => 0/2
+        )
+
+    [6] => Array
+        (
+            [0] => 0/1
+            [1] => 0/1-10/1
+            [2] => 0/1-10/1-9/10
+        )
+
+)
+
+    ---------------------------
+    
+    bridgesStrengthControlArr
+    Array
+(
+    [1] => 0/2 (2)
+    [2] => 2/2 (4)
+    [3] => 2/3 (5)
+    [4] => 3/4 (7)
+    [5] => 3/5 (8)
+    [6] => 0/1 (1)
+    [7] => 10/1 (11)
+    [8] => 9/10 (19)
+)
+
+    ---------------------------
+    
+    bridgesArr
+    Array
+(
+    [1] => Array
+        (
+            [0] => 1
+        )
+
+    [6] => Array
+        (
+            [0] => 6
+            [1] => 6-7
+            [2] => 6-7-8
+        )
+
+)
+
+    ---------------------------
+    
+
+--------------------------- END of RESULTS ---------------------------
